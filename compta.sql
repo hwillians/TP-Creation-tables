@@ -102,7 +102,7 @@ ALTER TABLE `Article`
 -- Constraints for table `bon`
 --
 ALTER TABLE `bon`
-  ADD CONSTRAINT `FK_fou_bon` FOREIGN KEY (`id_fou`) REFERENCES `bon` (`id`);
+  ADD CONSTRAINT `FK_fou_bon` FOREIGN KEY (`id_fou`) REFERENCES `Fournisseur` (`id`);
 
 --
 -- Constraints for table `compo`
